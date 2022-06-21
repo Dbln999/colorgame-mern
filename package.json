@@ -1,0 +1,21 @@
+{
+  "name": "color-game",
+  "version": "1.0.0",
+  "description": "Pick the right color by rgb",
+  "main": "index.js",
+  "scripts": {
+    "server": "nodemon index.js",
+    "client": "npm run start --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "author": "Daniil Durnev <durnev.danja@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^7.2.2",
+    "config": "^3.3.7",
+    "express": "^4.18.1",
+    "express-validator": "^6.14.1",
+    "mongoose": "^6.4.0",
+    "nodemon": "^2.0.16"
+  }
+}
